@@ -69,12 +69,10 @@ ul {
 }
 
 .label {
-  align-items: center;
   display: grid;
   gap: 0.5em;
   grid-template-columns: 1em auto;
   justify-content: start;
-  line-height: 1.1;
   margin-bottom: 8px;
 
   > .checkbox:checked + a {
