@@ -88,8 +88,10 @@ li:last-child > .label {
 }
 
 .checkbox {
+  -webkit-appearance: none;
   appearance: none; /* remove default styling */
   border: 0.1em solid #000;
+  border-radius: 0;
   background-color: #fff; /* for iOS < 15 to remove gradient background */
   display: grid;
   height: 1.15em;
@@ -152,6 +154,7 @@ li:last-child > .label {
 
 @media (max-width: 700px) {
   .sublocation-container {
+    gap: 16px;
     grid-template-columns: 1fr;
   }
 }
