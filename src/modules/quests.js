@@ -1,74 +1,26 @@
 import questData from './questData.json';
 
-const main = questData.acts[0].areas[0].quests;
-const mainList = document.querySelector('section[data-area="Main Quests"] > ul');
-const rivington = questData.acts[0].areas[1].quests;
-const rivingtonList = document.querySelector('section[data-area="Rivington"] > ul');
-const lowerCity = questData.acts[0].areas[2].quests;
-const lowerCityList = document.querySelector('section[data-area="Lower City"] > ul');
-const hoh = questData.acts[0].areas[3].quests;
-const hohList = document.querySelector('section[data-area="House of Hope"] > ul');
+const actThreeAreas = questData.acts[0].areas;
 
 export default function initialise() {
-  main.forEach((quest) => {
-    const checkbox = createQuestCheckbox(quest);
-    mainList.appendChild(checkbox);
-  });
+  for (const area of actThreeAreas) {
+    const ul = document.querySelector(`section[data-area="${area.name}"] > ul`);
 
-  rivington.forEach((quest) => {
-    const checkbox = createQuestCheckbox(quest);
-    rivingtonList.appendChild(checkbox);
-  });
-
-  lowerCity.forEach((quest) => {
-    const checkbox = createQuestCheckbox(quest);
-    lowerCityList.appendChild(checkbox);
-  });
-
-  hoh.forEach((quest) => {
-    const checkbox = createQuestCheckbox(quest);
-    hohList.appendChild(checkbox);
-  });
-
+    for (const quest of area.quests) {
+      const checkbox = createQuestCheckbox(quest);
+      ul.appendChild(checkbox);
+    }
+  }
   loadCheckboxStates();
 }
 
 function loadCheckboxStates() {
-  for (const quest of main) {
-    const checkbox = document.getElementById(quest.id);
-    if (checkbox) {
+  for (const area of actThreeAreas) {
+    for (const quest of area.quests) {
+      const checkbox = document.getElementById(quest.id);
       const savedState = localStorage.getItem(`quest_${quest.id}`);
-      if (savedState !== null) {
-        checkbox.checked = savedState === 'true';
-      }
-    }
-  }
 
-  for (const quest of rivington) {
-    const checkbox = document.getElementById(quest.id);
-    if (checkbox) {
-      const savedState = localStorage.getItem(`quest_${quest.id}`);
-      if (savedState !== null) {
-        checkbox.checked = savedState === 'true';
-      }
-    }
-  }
-
-  for (const quest of lowerCity) {
-    const checkbox = document.getElementById(quest.id);
-    if (checkbox) {
-      const savedState = localStorage.getItem(`quest_${quest.id}`);
-      if (savedState !== null) {
-        checkbox.checked = savedState === 'true';
-      }
-    }
-  }
-
-  for (const quest of hoh) {
-    const checkbox = document.getElementById(quest.id);
-    if (checkbox) {
-      const savedState = localStorage.getItem(`quest_${quest.id}`);
-      if (savedState !== null) {
+      if (checkbox && savedState !== null) {
         checkbox.checked = savedState === 'true';
       }
     }
