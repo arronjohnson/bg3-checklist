@@ -83,6 +83,10 @@ ul {
   }
 }
 
+li:last-child > .label {
+  margin-bottom: 0;
+}
+
 .checkbox {
   appearance: none; /* remove default styling */
   border: 0.1em solid #000;
