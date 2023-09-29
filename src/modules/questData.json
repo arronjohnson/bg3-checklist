@@ -4,7 +4,7 @@
       "name": "Act 3",
       "areas": [
         {
-          "name": "Main Quest",
+          "name": "Main Quests",
           "quests": [
             {
               "id": 30001,
@@ -92,72 +92,72 @@
               "url": "https://bg3.wiki/wiki/Avenge_the_Ironhands"
             },
             {
-              "id": 32003,
+              "id": 32004,
               "name": "Save the Gondians",
               "url": "https://bg3.wiki/wiki/Save_the_Gondians"
             },
             {
-              "id": 32004,
+              "id": 32005,
               "name": "Find Mystic Carrion's Servant",
               "url": "https://bg3.wiki/wiki/Find_Mystic_Carrion%27s_Servant"
             },
             {
-              "id": 32005,
+              "id": 32006,
               "name": "Help the Hag Survivors",
               "url": "https://bg3.wiki/wiki/Help_the_Hag_Survivors"
             },
             {
-              "id": 32006,
+              "id": 32007,
               "name": "Avenge the Hag Survivors",
               "url": "https://bg3.wiki/wiki/Avenge_the_Hag_Survivors"
             },
             {
-              "id": 32007,
+              "id": 32008,
               "name": "Find Dribbles the Clown",
               "url": ""
             },
             {
-              "id": 32008,
+              "id": 32009,
               "name": "Investigate the House of Grief",
               "url": "https://bg3.wiki/wiki/Investigate_the_House_of_Grief"
             },
             {
-              "id": 32009,
+              "id": 32010,
               "name": "Investigate Cazador's Palace",
               "url": "https://bg3.wiki/wiki/Investigate_Cazador%27s_Palace"
             },
             {
-              "id": 32010,
+              "id": 32011,
               "name": "Rescue the Grand Duke",
               "url": "https://bg3.wiki/wiki/Rescue_the_Grand_Duke"
             },
             {
-              "id": 32011,
+              "id": 32012,
               "name": "Retrieve Omeluum",
               "url": "https://bg3.wiki/wiki/Retrieve_Omeluum"
             },
             {
-              "id": 32012,
+              "id": 32013,
               "name": "Return Rakath's Gold",
               "url": "https://bg3.wiki/wiki/Return_Rakath%27s_Gold"
             },
             {
-              "id": 32013,
+              "id": 32014,
               "name": "Roveer's Storehouse",
               "url": "https://bg3.wiki/wiki/Roveer%27s_Storehouse"
             },
             {
-              "id": 32014,
+              "id": 32015,
               "name": "Save Vanra",
               "url": "https://bg3.wiki/wiki/Save_Vanra"
             },
             {
-              "id": 32015,
+              "id": 32016,
               "name": "Stop the Presses",
               "url": "https://bg3.wiki/wiki/Stop_the_Presses"
             },
             {
-              "id": 32016,
+              "id": 32017,
               "name": "Visit the Emperor's Old Hideout",
               "url": "https://bg3.wiki/wiki/Visit_the_Emperor%27s_Old_Hideout"
             }
