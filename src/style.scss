@@ -142,17 +142,9 @@ li:last-child > .label {
   }
 }
 
-@media (max-width: 1300px) {
-  .sublocation-container {
-    align-items: stretch;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(3, max-content);
-  }
-}
-
 @media (max-width: 1000px) {
   .sublocation-container {
-    grid-template-columns: repeat(2, max-content);
+    height: 900px;
   }
 
   .footer {
@@ -162,7 +154,6 @@ li:last-child > .label {
 
 @media (max-width: 700px) {
   .sublocation-container {
-    gap: 16px;
-    grid-template-columns: 1fr;
+    height: 100%;
   }
 }
