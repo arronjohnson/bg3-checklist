@@ -31,6 +31,17 @@ function loadCheckboxStates() {
       if (checkbox && savedState !== null) {
         checkbox.checked = savedState === 'true';
       }
+
+      if (quest.subquests) {
+        for (const subquest of quest.subquests) {
+          const subCheckbox = document.getElementById(subquest.id);
+          const subSavedState = localStorage.getItem(`quest_${subquest.id}`);
+
+          if (subCheckbox && subSavedState !== null) {
+            subCheckbox.checked = subSavedState === 'true';
+          }
+        }
+      }
     }
   }
 }
