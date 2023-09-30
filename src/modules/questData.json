@@ -39,11 +39,6 @@
                   "url": "https://bg3.wiki/wiki/Disable_the_Steel_Watch"
                 }
               ]
-            },
-            {
-              "id": 30004,
-              "name": "Deal with the Devil",
-              "url": "https://bg3.wiki/wiki/Deal_with_the_Devil"
             }
           ]
         },
@@ -205,6 +200,26 @@
               "id": 33002,
               "name": "Save Hope",
               "url": "https://bg3.wiki/wiki/Save_Hope"
+            }
+          ]
+        },
+        {
+          "name": "Side Quests",
+          "quests": [
+            {
+              "id": 34001,
+              "name": "Deal with the Devil",
+              "url": "https://bg3.wiki/wiki/Deal_with_the_Devil"
+            },
+            {
+              "id": 34002,
+              "name": "Free Orpheus",
+              "url": "https://bg3.wiki/wiki/Free_Orpheus"
+            },
+            {
+              "id": 34003,
+              "name": "Wyrmway",
+              "url": "https://bg3.wiki/wiki/Wyrmway"
             }
           ]
         }

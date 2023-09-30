@@ -54,11 +54,12 @@ ul {
 }
 
 .sublocation-container {
-  align-items: start;
-  display: grid;
+  align-content: start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 510px;
   gap: 32px;
-  grid-auto-columns: max-content;
-  grid-auto-flow: column;
 }
 
 .area-card {
