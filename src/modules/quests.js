@@ -9,6 +9,14 @@ export default function initialise() {
     for (const quest of area.quests) {
       const checkbox = createQuestCheckbox(quest);
       ul.appendChild(checkbox);
+
+      if (quest.subquests) {
+        for (const subquest of quest.subquests) {
+          const subCheckbox = createQuestCheckbox(subquest);
+          subCheckbox.classList.add('subquest');
+          ul.appendChild(subCheckbox);
+        }
+      }
     }
   }
   loadCheckboxStates();

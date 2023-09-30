@@ -14,12 +14,31 @@
             {
               "id": 30002,
               "name": "Get Orin's Netherstone",
-              "url": "https://bg3.wiki/wiki/Get_Orin%27s_Netherstone"
+              "url": "https://bg3.wiki/wiki/Get_Orin%27s_Netherstone",
+              "subquests": [
+                {
+                  "id": 30002001,
+                  "name": "Investigate the Murders",
+                  "url": "https://bg3.wiki/wiki/Investigate_the_Murders"
+                },
+                {
+                  "id": 30002002,
+                  "name": "Impress the Murder Tribunal",
+                  "url": "https://bg3.wiki/wiki/Impress_the_Murder_Tribunal"
+                }
+              ]
             },
             {
               "id": 30003,
               "name": "Get Gortash's Netherstone",
-              "url": "https://bg3.wiki/wiki/Get_Gortash%27s_Netherstone"
+              "url": "https://bg3.wiki/wiki/Get_Gortash%27s_Netherstone",
+              "subquests": [
+                {
+                  "id": 3000301,
+                  "name": "Disable the Steel Watch",
+                  "url": "https://bg3.wiki/wiki/Disable_the_Steel_Watch"
+                }
+              ]
             }
           ]
         },
@@ -94,7 +113,19 @@
             {
               "id": 32004,
               "name": "Save the Gondians",
-              "url": "https://bg3.wiki/wiki/Save_the_Gondians"
+              "url": "https://bg3.wiki/wiki/Save_the_Gondians",
+              "subquests": [
+                {
+                  "id": 3200401,
+                  "name": "Rescue the Grand Duke",
+                  "url": "https://bg3.wiki/wiki/Rescue_the_Grand_Duke"
+                },
+                {
+                  "id": 3200402,
+                  "name": "Retrieve Omeluum",
+                  "url": "https://bg3.wiki/wiki/Retrieve_Omeluum"
+                }
+              ]
             },
             {
               "id": 32005,
@@ -104,62 +135,56 @@
             {
               "id": 32006,
               "name": "Help the Hag Survivors",
-              "url": "https://bg3.wiki/wiki/Help_the_Hag_Survivors"
+              "url": "https://bg3.wiki/wiki/Help_the_Hag_Survivors",
+              "subquests": [
+                {
+                  "id": 3200601,
+                  "name": "Avenge the Hag Survivors",
+                  "url": "https://bg3.wiki/wiki/Avenge_the_Hag_Survivors"
+                },
+                {
+                  "id": 3200602,
+                  "name": "Save Vanra",
+                  "url": "https://bg3.wiki/wiki/Save_Vanra"
+                }
+              ]
             },
             {
               "id": 32007,
-              "name": "Avenge the Hag Survivors",
-              "url": "https://bg3.wiki/wiki/Avenge_the_Hag_Survivors"
+              "name": "Find Dribbles the Clown",
+              "url": "https://bg3.wiki/wiki/Find_Dribbles_the_Clown"
             },
             {
               "id": 32008,
-              "name": "Find Dribbles the Clown",
-              "url": ""
-            },
-            {
-              "id": 32009,
               "name": "Investigate the House of Grief",
               "url": "https://bg3.wiki/wiki/Investigate_the_House_of_Grief"
             },
             {
-              "id": 32010,
+              "id": 32009,
               "name": "Investigate Cazador's Palace",
               "url": "https://bg3.wiki/wiki/Investigate_Cazador%27s_Palace"
             },
             {
-              "id": 32011,
-              "name": "Rescue the Grand Duke",
-              "url": "https://bg3.wiki/wiki/Rescue_the_Grand_Duke"
-            },
-            {
-              "id": 32012,
-              "name": "Retrieve Omeluum",
-              "url": "https://bg3.wiki/wiki/Retrieve_Omeluum"
-            },
-            {
-              "id": 32013,
+              "id": 32010,
               "name": "Return Rakath's Gold",
               "url": "https://bg3.wiki/wiki/Return_Rakath%27s_Gold"
             },
             {
-              "id": 32014,
-              "name": "Roveer's Storehouse",
-              "url": "https://bg3.wiki/wiki/Roveer%27s_Storehouse"
-            },
-            {
-              "id": 32015,
-              "name": "Save Vanra",
-              "url": "https://bg3.wiki/wiki/Save_Vanra"
-            },
-            {
-              "id": 32016,
+              "id": 32011,
               "name": "Stop the Presses",
               "url": "https://bg3.wiki/wiki/Stop_the_Presses"
             },
             {
-              "id": 32017,
+              "id": 32012,
               "name": "Visit the Emperor's Old Hideout",
-              "url": "https://bg3.wiki/wiki/Visit_the_Emperor%27s_Old_Hideout"
+              "url": "https://bg3.wiki/wiki/Visit_the_Emperor%27s_Old_Hideout",
+              "subquests": [
+                {
+                  "id": 3201201,
+                  "name": "Roveer's Storehouse",
+                  "url": "https://bg3.wiki/wiki/Roveer%27s_Storehouse"
+                }
+              ]
             }
           ]
         },

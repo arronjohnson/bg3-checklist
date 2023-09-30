@@ -68,6 +68,15 @@ ul {
   padding: 16px;
 }
 
+.subquest {
+  margin-left: 24px;
+
+  a {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+}
+
 .label {
   display: grid;
   gap: 0.5em;
