@@ -127,6 +127,12 @@ li:last-child > .label {
   margin-top: auto;
   text-align: right;
 
+  &__icons-container {
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+  }
+
   &__icon-link {
     font-size: 2rem;
     user-select: none;
