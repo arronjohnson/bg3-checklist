@@ -100,12 +100,7 @@
             {
               "id": 1004010,
               "name": "Speak to Nettie"
-            }
-          ]
-        },
-        {
-          "name": "Emerald Grove pt.2",
-          "quests": [
+            },
             {
               "id": 1004011,
               "name": "Fight the Harpies"
@@ -230,7 +225,7 @@
           ]
         },
         {
-          "name": "Emerald Grove pt.3",
+          "name": "Emerald Grove pt.2",
           "quests": [
             {
               "id": 1007007,
