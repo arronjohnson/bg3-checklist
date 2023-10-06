@@ -1,6 +1,467 @@
 {
   "acts": [
     {
+      "name": "Act 1",
+      "areas": [
+        {
+          "name": "Nautiloid",
+          "quests": [
+            {
+              "id": 1001001,
+              "name": "Free Us"
+            },
+            {
+              "id": 1001002,
+              "name": "Free Shadowheart"
+            },
+            {
+              "id": 1001003,
+              "name": "Kill Commander Zhalk"
+            }
+          ]
+        },
+        {
+          "name": "Ravaged Beach",
+          "quests": [
+            {
+              "id": 1002001,
+              "name": "Fight Intellect Devourers"
+            },
+            {
+              "id": 1002002,
+              "name": "Meet Astarion"
+            },
+            {
+              "id": 1002003,
+              "name": "Kill Dying Mind Flayer"
+            },
+            {
+              "id": 1002004,
+              "name": "Meet Gale"
+            },
+            {
+              "id": 1002005,
+              "name": "Free Lae'zel"
+            },
+            {
+              "id": 1002006,
+              "name": "Persuade Adventuring Party"
+            }
+          ]
+        },
+        {
+          "name": "Dank Crypt",
+          "quests": [
+            {
+              "id": 1003001,
+              "name": "Free Withers"
+            }
+          ]
+        },
+        {
+          "name": "Emerald Grove pt.1",
+          "quests": [
+            {
+              "id": 1004001,
+              "name": "Fight the Goblins"
+            },
+            {
+              "id": 1004002,
+              "name": "Kill the Bugbear Assassin"
+            },
+            {
+              "id": 1004003,
+              "name": "Speak to Zevlor"
+            },
+            {
+              "id": 1004004,
+              "name": "Meet Wyll"
+            },
+            {
+              "id": 1004005,
+              "name": "Speak to Strange Ox"
+            },
+            {
+              "id": 1004006,
+              "name": "Speak to Komira"
+            },
+            {
+              "id": 1004007,
+              "name": "Speak to Volo"
+            },
+            {
+              "id": 1004008,
+              "name": "Save Arabella"
+            },
+            {
+              "id": 1004009,
+              "name": "Find Kagha's hidden note"
+            },
+            {
+              "id": 1004010,
+              "name": "Speak to Nettie"
+            }
+          ]
+        },
+        {
+          "name": "Emerald Grove pt.2",
+          "quests": [
+            {
+              "id": 1004011,
+              "name": "Fight the Harpies"
+            },
+            {
+              "id": 1004012,
+              "name": "Visit Tiefling Hideout"
+            },
+            {
+              "id": 1004013,
+              "name": "Befriend Alfira"
+            },
+            {
+              "id": 1004014,
+              "name": "Save Sazza"
+            }
+          ]
+        },
+        {
+          "name": "Risen Road",
+          "quests": [
+            {
+              "id": 1005001,
+              "name": "Fight Brynna & Andrick"
+            },
+            {
+              "id": 1005002,
+              "name": "Owlbear Nest"
+            },
+            {
+              "id": 1005003,
+              "name": "Find Scratch the dog"
+            },
+            {
+              "id": 1005004,
+              "name": "Meet Karlach"
+            },
+            {
+              "id": 1005005,
+              "name": "Kill the Paladins"
+            },
+            {
+              "id": 1005006,
+              "name": "Fight the Gnolls"
+            },
+            {
+              "id": 1005007,
+              "name": "Get Zhentarim Cargo"
+            }
+          ]
+        },
+        {
+          "name": "Waukeen's Rest",
+          "quests": [
+            {
+              "id": 1005008,
+              "name": "Rescue people from fire"
+            },
+            {
+              "id": 1005009,
+              "name": "Zhentarim Hideout"
+            }
+          ]
+        },
+        {
+          "name": "Putrid Bog",
+          "quests": [
+            {
+              "id": 1006001,
+              "name": "Kill the Shadow Druids"
+            },
+            {
+              "id": 1006002,
+              "name": "Get Khaga evidence"
+            },
+            {
+              "id": 1006003,
+              "name": "Fight Redcaps"
+            }
+          ]
+        },
+        {
+          "name": "Riverside Teahouse",
+          "quests": [
+            {
+              "id": 1006004,
+              "name": "Fight Gandrel"
+            },
+            {
+              "id": 1006005,
+              "name": "Rescue Mayrina"
+            }
+          ]
+        },
+        {
+          "name": "Blighted Village",
+          "quests": [
+            {
+              "id": 1007001,
+              "name": "Kill Goblins"
+            },
+            {
+              "id": 1007002,
+              "name": "Befriend Ogres"
+            },
+            {
+              "id": 1007003,
+              "name": "Rescue Barcus from Windmill"
+            },
+            {
+              "id": 1007004,
+              "name": "Find the Necromancy of Thay"
+            },
+            {
+              "id": 1007005,
+              "name": "Clear Whispering Depths"
+            },
+            {
+              "id": 1007006,
+              "name": "Find Bugbear & Ogre barn"
+            }
+          ]
+        },
+        {
+          "name": "Emerald Grove pt.3",
+          "quests": [
+            {
+              "id": 1007007,
+              "name": "Confront/Kill Kagha"
+            },
+            {
+              "id": 1007008,
+              "name": "Steal Druid Idol"
+            },
+            {
+              "id": 1007009,
+              "name": "Speak to Zevlor"
+            }
+          ]
+        },
+        {
+          "name": "Goblin Camp",
+          "quests": [
+            {
+              "id": 1008001,
+              "name": "Speak to Volo"
+            },
+            {
+              "id": 1008002,
+              "name": "Save Owlbear"
+            }
+          ]
+        },
+        {
+          "name": "Shattered Sanctum",
+          "quests": [
+            {
+              "id": 1008003,
+              "name": "Speak to Abdirak"
+            },
+            {
+              "id": 1008004,
+              "name": "Free Volo"
+            },
+            {
+              "id": 1008005,
+              "name": "Rescue Halsin"
+            },
+            {
+              "id": 1008006,
+              "name": "Kill the 3 True Souls"
+            }
+          ]
+        },
+        {
+          "name": "Underdark",
+          "quests": [
+            {
+              "id": 1009001,
+              "name": "Get Phalar Aluve"
+            },
+            {
+              "id": 1009002,
+              "name": "Fight Spectator"
+            },
+            {
+              "id": 1009003,
+              "name": "Visit Myconid Colony",
+              "subquests": [
+                {
+                  "id": 1009003001,
+                  "name": "Meet Omeluum"
+                },
+                {
+                  "id": 1009003002,
+                  "name": "Cure Thulla"
+                },
+                {
+                  "id": 1009003003,
+                  "name": "Speak to both Sovereigns"
+                },
+                {
+                  "id": 1009003004,
+                  "name": "Speak to Derryth"
+                }
+              ]
+            },
+            {
+              "id": 1009004,
+              "name": "Rescue Baelen"
+            },
+            {
+              "id": 1009005,
+              "name": "Fight the Duergar"
+            },
+            {
+              "id": 1009006,
+              "name": "Get Sussur Bark"
+            },
+            {
+              "id": 1009007,
+              "name": "Festering Cove"
+            },
+            {
+              "id": 1009008,
+              "name": "Arcane Tower"
+            }
+          ]
+        },
+        {
+          "name": "Grymforge",
+          "quests": [
+            {
+              "id": 1010001,
+              "name": "Speak to Elder Brithuar"
+            },
+            {
+              "id": 1010002,
+              "name": "Speak to Sergeant Thrinn"
+            },
+            {
+              "id": 1010003,
+              "name": "Get Runepowder from Philomeen"
+            },
+            {
+              "id": 1010004,
+              "name": "Kill Nere"
+            },
+            {
+              "id": 1010005,
+              "name": "Speak to rescued gnomes"
+            },
+            {
+              "id": 1010006,
+              "name": "Craft at Adamantine Forge"
+            },
+            {
+              "id": 1010007,
+              "name": "Kill Fire Elemental"
+            },
+            {
+              "id": 1010008,
+              "name": "Get Sentient Amulet"
+            },
+            {
+              "id": 1010009,
+              "name": "Kill Mimics"
+            }
+          ]
+        },
+        {
+          "name": "Mountain Pass",
+          "quests": [
+            {
+              "id": 1011001,
+              "name": "Speak to Lady Esther"
+            },
+            {
+              "id": 1011002,
+              "name": "Kill Undead Army"
+            },
+            {
+              "id": 1011003,
+              "name": "Get Dawnmaster's Crest"
+            },
+            {
+              "id": 1011004,
+              "name": "Enter purification machine"
+            },
+            {
+              "id": 1011005,
+              "name": "Buy from A'jak'nir Jeera"
+            },
+            {
+              "id": 1011006,
+              "name": "Fight Githyanki Inquisitor"
+            },
+            {
+              "id": 1011007,
+              "name": "Get Blood of Lathander"
+            },
+            {
+              "id": 1011008,
+              "name": "Clear creche"
+            },
+            {
+              "id": 1011009,
+              "name": "Get egg for Lady Esther"
+            }
+          ]
+        },
+        {
+          "name": "Tadpoles",
+          "quests": [
+            {
+              "id": 1012001,
+              "name": "Edowin near Blighted Village"
+            },
+            {
+              "id": 1012002,
+              "name": "Table in Nettie's Lab"
+            },
+            {
+              "id": 1012003,
+              "name": "Defeat Flind"
+            },
+            {
+              "id": 1012004,
+              "name": "Defeat True Soul Gut"
+            },
+            {
+              "id": 1012005,
+              "name": "Defeat Minthara"
+            },
+            {
+              "id": 1012006,
+              "name": "Defeat Dror Ragzlin"
+            },
+            {
+              "id": 1012007,
+              "name": "3x Creche Infirmary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Act 2",
+      "areas": [
+        {
+          "name": "First Entered",
+          "quests": []
+        }
+      ]
+    },
+    {
       "name": "Act 3",
       "areas": [
         {
@@ -39,6 +500,26 @@
                   "url": "https://bg3.wiki/wiki/Disable_the_Steel_Watch"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "Side Quests",
+          "quests": [
+            {
+              "id": 34001,
+              "name": "Deal with the Devil",
+              "url": "https://bg3.wiki/wiki/Deal_with_the_Devil"
+            },
+            {
+              "id": 34002,
+              "name": "Free Orpheus",
+              "url": "https://bg3.wiki/wiki/Free_Orpheus"
+            },
+            {
+              "id": 34003,
+              "name": "Wyrmway",
+              "url": "https://bg3.wiki/wiki/Wyrmway"
             }
           ]
         },
@@ -89,6 +570,21 @@
               "id": 31009,
               "name": "Solve the Open Hand Temple Murders",
               "url": "https://bg3.wiki/wiki/Solve_the_Open_Hand_Temple_Murders"
+            }
+          ]
+        },
+        {
+          "name": "House of Hope",
+          "quests": [
+            {
+              "id": 33001,
+              "name": "Acquire the Gauntlets for Helsik",
+              "url": "https://bg3.wiki/wiki/Acquire_the_Gauntlets_for_Helsik"
+            },
+            {
+              "id": 33002,
+              "name": "Save Hope",
+              "url": "https://bg3.wiki/wiki/Save_Hope"
             }
           ]
         },
@@ -185,41 +681,6 @@
                   "url": "https://bg3.wiki/wiki/Roveer%27s_Storehouse"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "House of Hope",
-          "quests": [
-            {
-              "id": 33001,
-              "name": "Acquire the Gauntlets for Helsik",
-              "url": "https://bg3.wiki/wiki/Acquire_the_Gauntlets_for_Helsik"
-            },
-            {
-              "id": 33002,
-              "name": "Save Hope",
-              "url": "https://bg3.wiki/wiki/Save_Hope"
-            }
-          ]
-        },
-        {
-          "name": "Side Quests",
-          "quests": [
-            {
-              "id": 34001,
-              "name": "Deal with the Devil",
-              "url": "https://bg3.wiki/wiki/Deal_with_the_Devil"
-            },
-            {
-              "id": 34002,
-              "name": "Free Orpheus",
-              "url": "https://bg3.wiki/wiki/Free_Orpheus"
-            },
-            {
-              "id": 34003,
-              "name": "Wyrmway",
-              "url": "https://bg3.wiki/wiki/Wyrmway"
             }
           ]
         }

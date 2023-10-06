@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 $accent-color: #3689fc;
+$sidebar-color: #c3d4e4;
 
 :root {
   --accent: #{$accent-color};
@@ -19,12 +20,13 @@ html {
 
 body {
   background-color: #e6edf4;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   font-family: 'Lato', sans-serif;
-  min-height: 100%;
+  grid-template:
+    'buttons quests'
+    'buttons footer' / max-content 1fr;
   margin: 0;
-  padding: 16px;
+  min-height: 100%;
 }
 
 a {
@@ -43,14 +45,41 @@ p {
   margin: 0;
 }
 
+h1 {
+  font-size: 1.17em;
+}
+
 ul {
   list-style: none;
   margin-bottom: 0;
   padding: 0;
 }
 
-.act-heading {
-  margin-bottom: 16px;
+.button-container {
+  background-color: $sidebar-color;
+  display: flex;
+  flex-direction: column;
+  grid-area: buttons;
+}
+
+.button {
+  background-color: inherit;
+  border: none;
+  padding: 24px 48px;
+
+  &.active {
+    background-color: darken($sidebar-color, 10%);
+    font-weight: bold;
+  }
+
+  &:hover {
+    background-color: darken($sidebar-color, 10%);
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: darken($sidebar-color, 15%);
+  }
 }
 
 .sublocation-container {
@@ -58,8 +87,14 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 510px;
+  height: 1110px;
   gap: 32px;
+  grid-area: quests;
+  padding: 16px;
+
+  &--act3 {
+    height: 510px;
+  }
 }
 
 .area-card {
@@ -72,7 +107,8 @@ ul {
 .subquest {
   margin-left: 24px;
 
-  a {
+  a,
+  span {
     font-size: 0.9rem;
     font-style: italic;
   }
@@ -85,7 +121,8 @@ ul {
   justify-content: start;
   margin-bottom: 8px;
 
-  > .checkbox:checked + a {
+  > .checkbox:checked + a,
+  > .checkbox:checked + span {
     color: #b2b2b2;
     text-decoration: line-through;
   }
@@ -124,8 +161,14 @@ li:last-child > .label {
 }
 
 .footer {
+  grid-area: footer;
   margin-top: auto;
+  padding: 16px;
   text-align: right;
+
+  .fa-sr-only {
+    font-size: 1px;
+  }
 
   &__icons-container {
     display: flex;
