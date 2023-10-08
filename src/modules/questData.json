@@ -107,11 +107,11 @@
             },
             {
               "id": 1004012,
-              "name": "Visit Tiefling Hideout"
+              "name": "Befriend Alfira"
             },
             {
               "id": 1004013,
-              "name": "Befriend Alfira"
+              "name": "Visit Tiefling Hideout"
             },
             {
               "id": 1004014,
@@ -276,6 +276,23 @@
           ]
         },
         {
+          "name": "Emerald Grove pt.3",
+          "quests": [
+            {
+              "id": 1007010,
+              "name": "Speak to Zevlor"
+            },
+            {
+              "id": 1007011,
+              "name": "Speak to Halsin and Rath"
+            },
+            {
+              "id": 1007012,
+              "name": "Rune Treasure Room"
+            }
+          ]
+        },
+        {
           "name": "Underdark",
           "quests": [
             {
@@ -335,7 +352,7 @@
           "quests": [
             {
               "id": 1010001,
-              "name": "Speak to Elder Brithuar"
+              "name": "Speak to Elder Brithvar"
             },
             {
               "id": 1010002,
@@ -417,11 +434,11 @@
           "quests": [
             {
               "id": 1012001,
-              "name": "Edowin near Blighted Village"
+              "name": "Table in Nettie's Lab"
             },
             {
               "id": 1012002,
-              "name": "Table in Nettie's Lab"
+              "name": "Edowin near Blighted Village"
             },
             {
               "id": 1012003,
