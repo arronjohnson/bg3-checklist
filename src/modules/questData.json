@@ -442,22 +442,26 @@
             },
             {
               "id": 1012003,
-              "name": "Defeat Flind"
+              "name": "Kill Flind"
             },
             {
               "id": 1012004,
-              "name": "Defeat True Soul Gut"
+              "name": "Kill True Soul Gut"
             },
             {
               "id": 1012005,
-              "name": "Defeat Minthara"
+              "name": "Kill Minthara"
             },
             {
               "id": 1012006,
-              "name": "Defeat Dror Ragzlin"
+              "name": "Kill Dror Ragzlin"
             },
             {
               "id": 1012007,
+              "name": "Kill Nere"
+            },
+            {
+              "id": 1012008,
               "name": "3x Creche Infirmary"
             }
           ]
