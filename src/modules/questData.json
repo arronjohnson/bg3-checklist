@@ -472,8 +472,366 @@
       "name": "Act 2",
       "areas": [
         {
-          "name": "First Entered",
-          "quests": []
+          "name": "Shadow Cursed Lands",
+          "quests": [
+            {
+              "id": 2001001,
+              "name": "Meet He-Who-Was"
+            },
+            {
+              "id": 2001002,
+              "name": "Play Hide and Seek with Oliver"
+            },
+            {
+              "id": 2001003,
+              "name": "Loot various ruins"
+            },
+            {
+              "id": 2001004,
+              "name": "Explore Potter's Workshop"
+            }
+          ]
+        },
+        {
+          "name": "Last Light Inn pt.1",
+          "quests": [
+            {
+              "id": 2002001,
+              "name": "Speak to Dammon"
+            },
+            {
+              "id": 2002002,
+              "name": "Speak to Strange Ox"
+            },
+            {
+              "id": 2002003,
+              "name": "Convince Mattis to receive key"
+            },
+            {
+              "id": 2002004,
+              "name": "Speak to Jaheira"
+            },
+            {
+              "id": 2002005,
+              "name": "Speak to Alfira"
+            },
+            {
+              "id": 2002006,
+              "name": "Speak to Rolan"
+            },
+            {
+              "id": 2002007,
+              "name": "Speak to Raphael then Mol"
+            },
+            {
+              "id": 2002008,
+              "name": "Speak to Art (bed on bottom floor)"
+            },
+            {
+              "id": 2002009,
+              "name": "Explore the cellar"
+            },
+            {
+              "id": 2002010,
+              "name": "Ambush the Spider"
+            }
+          ]
+        },
+        {
+          "name": "Reithwin",
+          "quests": [
+            {
+              "id": 2003001,
+              "name": "Explore Shar's Sanctuary"
+            },
+            {
+              "id": 2003002,
+              "name": "Speak to Arabella"
+            },
+            {
+              "id": 2003003,
+              "name": "Explore Mason Lodge Basement"
+            },
+            {
+              "id": 2003004,
+              "name": "Kill Gerringothe Thorm"
+            },
+            {
+              "id": 2003005,
+              "name": "Loot Tollhouse"
+            }
+          ]
+        },
+        {
+          "name": "House of Healing",
+          "quests": [
+            {
+              "id": 2003006,
+              "name": "Speak to Arabella's parents"
+            },
+            {
+              "id": 2003007,
+              "name": "Kill Malus Thorm"
+            },
+            {
+              "id": 2003008,
+              "name": "Explore library on top floor"
+            },
+            {
+              "id": 2003009,
+              "name": "Explore morgue"
+            }
+          ]
+        },
+        {
+          "name": "The Waning Moon",
+          "quests": [
+            {
+              "id": 2003010,
+              "name": "Speak to the bartender"
+            },
+            {
+              "id": 2003011,
+              "name": "Loot Madeline’s ledger"
+            },
+            {
+              "id": 2003012,
+              "name": "Loot potion stash"
+            },
+            {
+              "id": 2003013,
+              "name": "Return to He-Who-Was"
+            }
+          ]
+        },
+        {
+          "name": "Moonrise Tower pt.1",
+          "quests": [
+            {
+              "id": 2004001,
+              "name": "Speak to gnolls in kitchen (be nice)"
+            },
+            {
+              "id": 2004002,
+              "name": "Speak to ogre on ground floor"
+            },
+            {
+              "id": 2004003,
+              "name": "Speak with Weapons/Armour merchant"
+            },
+            {
+              "id": 2004004,
+              "name": "Get Strength potion from Araj Oblodra"
+            },
+            {
+              "id": 2004005,
+              "name": "Save prisoners in basement",
+              "subquests": [
+                {
+                  "id": 200400501,
+                  "name": "Rescue Gnomes"
+                },
+                {
+                  "id": 200400502,
+                  "name": "Rescue Tieflings"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Last Light Inn pt.2",
+          "quests": [
+            {
+              "id": 2005001,
+              "name": "Speak to Rolan, Alfira, and Bex"
+            },
+            {
+              "id": 2005002,
+              "name": "Rest up to 10 times for quests"
+            },
+            {
+              "id": 2005003,
+              "name": "Save Isobel"
+            },
+            {
+              "id": 2005004,
+              "name": "Rest up to 3 times for quests"
+            },
+            {
+              "id": 2005005,
+              "name": "Speak to Halsin"
+            },
+            {
+              "id": 2005006,
+              "name": "Play lute to wake up Art"
+            },
+            {
+              "id": 2005007,
+              "name": "Meet Halsin by the lakeside"
+            },
+            {
+              "id": 2005008,
+              "name": "Rest to progress questline"
+            }
+          ]
+        },
+        {
+          "name": "Moonrise Tower pt.2",
+          "quests": [
+            {
+              "id": 2006001,
+              "name": "Speak to Ketheric Thorm"
+            },
+            {
+              "id": 2006002,
+              "name": "Explore Balthazar's room",
+              "subquests": [
+                {
+                  "id": 200600201,
+                  "name": "Solve book puzzle"
+                }
+              ]
+            },
+            {
+              "id": 2006003,
+              "name": "Explore Ketheric's room"
+            },
+            {
+              "id": 2006004,
+              "name": "Rest up to 5 times for romance"
+            }
+          ]
+        },
+        {
+          "name": "Gauntlet of Shar",
+          "quests": [
+            {
+              "id": 2007001,
+              "name": "Press buttons (Tower > Grieving > General)"
+            },
+            {
+              "id": 2007002,
+              "name": "Loot Umbral Gem"
+            },
+            {
+              "id": 2007003,
+              "name": "Kill Cloaker"
+            },
+            {
+              "id": 2007004,
+              "name": "Speak to Balthazar"
+            },
+            {
+              "id": 2007005,
+              "name": "Kill Yurgir"
+            },
+            {
+              "id": 2007006,
+              "name": "Complete all 3 trials"
+            },
+            {
+              "id": 2007007,
+              "name": "Explore the library",
+              "subquests": [
+                {
+                  "id": 200700701,
+                  "name": "Find Teachings of Loss book"
+                },
+                {
+                  "id": 200700702,
+                  "name": "Place book on pedestal"
+                }
+              ]
+            },
+            {
+              "id": 2007008,
+              "name": "Explore bottom of Shar statue"
+            },
+            {
+              "id": 2007009,
+              "name": "Speak to rats"
+            },
+            {
+              "id": 2007010,
+              "name": "Enter Shadowfell"
+            }
+          ]
+        },
+        {
+          "name": "Moonrise Tower pt.3",
+          "quests": [
+            {
+              "id": 2008001,
+              "name": "Kill Disciple Z'rell"
+            },
+            {
+              "id": 2008002,
+              "name": "Fight Ketheric Thorm"
+            }
+          ]
+        },
+        {
+          "name": "Mind Flayer Colony",
+          "quests": [
+            {
+              "id": 2009001,
+              "name": "Rescue Zevlor from the pods"
+            },
+            {
+              "id": 2009002,
+              "name": "Rescue Mizora"
+            },
+            {
+              "id": 2009003,
+              "name": "Complete brain puzzle"
+            },
+            {
+              "id": 2009004,
+              "name": "Insert brain into interface"
+            },
+            {
+              "id": 2009005,
+              "name": "Fight Ketheric Thorm"
+            }
+          ]
+        },
+        {
+          "name": "Tadpoles",
+          "quests": [
+            {
+              "id": 2010001,
+              "name": "Zhentarim Crate (Moonrise docks)"
+            },
+            {
+              "id": 2010002,
+              "name": "Linsella (Moonrise kitchen)"
+            },
+            {
+              "id": 2010003,
+              "name": "Kill Flaming Fist Marcus"
+            },
+            {
+              "id": 2010004,
+              "name": "Zealot Krizt (Oubliette)"
+            },
+            {
+              "id": 2010005,
+              "name": "Kill Disciple Z'rell"
+            },
+            {
+              "id": 2010006,
+              "name": "Kill Zealot Malik"
+            },
+            {
+              "id": 2010007,
+              "name": "Kill Adept Merim"
+            },
+            {
+              "id": 2010008,
+              "name": "Brine pool (Mind Flayer Colony)"
+            }
+          ]
         }
       ]
     },
