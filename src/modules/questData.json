@@ -476,19 +476,19 @@
           "quests": [
             {
               "id": 2001001,
-              "name": "Meet He-Who-Was"
+              "name": "Lure and kill Kar'niss"
             },
             {
               "id": 2001002,
-              "name": "Play Hide and Seek with Oliver"
-            },
-            {
-              "id": 2001003,
               "name": "Loot various ruins"
             },
             {
+              "id": 2001003,
+              "name": "Play Hide and Seek with Oliver"
+            },
+            {
               "id": 2001004,
-              "name": "Explore Potter's Workshop"
+              "name": "Meet He-Who-Was"
             }
           ]
         },
@@ -529,11 +529,7 @@
             },
             {
               "id": 2002009,
-              "name": "Explore the cellar"
-            },
-            {
-              "id": 2002010,
-              "name": "Ambush the Spider"
+              "name": "Explore the cellar (break walls)"
             }
           ]
         },
