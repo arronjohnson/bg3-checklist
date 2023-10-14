@@ -656,22 +656,26 @@
             },
             {
               "id": 2005004,
-              "name": "Rest up to 3 times for quests"
+              "name": "Convince Mattis to stay"
             },
             {
               "id": 2005005,
-              "name": "Speak to Halsin"
+              "name": "Rest up to 3 times for quests"
             },
             {
               "id": 2005006,
-              "name": "Play lute to wake up Art"
+              "name": "Speak to Halsin"
             },
             {
               "id": 2005007,
-              "name": "Meet Halsin by the lakeside"
+              "name": "Play lute to wake up Art"
             },
             {
               "id": 2005008,
+              "name": "Meet Halsin by the lakeside"
+            },
+            {
+              "id": 2005009,
               "name": "Rest to progress questline"
             }
           ]
