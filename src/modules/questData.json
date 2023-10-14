@@ -676,7 +676,15 @@
             },
             {
               "id": 2005009,
-              "name": "Rest to progress questline"
+              "name": "Speak to Halsin at camp"
+            },
+            {
+              "id": 2005010,
+              "name": "Speak to Oliver"
+            },
+            {
+              "id": 2005011,
+              "name": "Speak to Thaniel at camp"
             }
           ]
         },
