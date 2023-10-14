@@ -538,22 +538,26 @@
           "quests": [
             {
               "id": 2003001,
-              "name": "Explore Shar's Sanctuary"
+              "name": "Save Rolan"
             },
             {
               "id": 2003002,
-              "name": "Speak to Arabella"
+              "name": "Explore Shar's Sanctuary"
             },
             {
               "id": 2003003,
-              "name": "Explore Mason Lodge Basement"
+              "name": "Speak to Arabella"
             },
             {
               "id": 2003004,
-              "name": "Kill Gerringothe Thorm"
+              "name": "Explore Mason Lodge Basement"
             },
             {
               "id": 2003005,
+              "name": "Kill Gerringothe Thorm"
+            },
+            {
+              "id": 2003006,
               "name": "Loot Tollhouse"
             }
           ]
@@ -562,19 +566,19 @@
           "name": "House of Healing",
           "quests": [
             {
-              "id": 2003006,
+              "id": 2003007,
               "name": "Speak to Arabella's parents"
             },
             {
-              "id": 2003007,
+              "id": 2003008,
               "name": "Kill Malus Thorm"
             },
             {
-              "id": 2003008,
+              "id": 2003009,
               "name": "Explore library on top floor"
             },
             {
-              "id": 2003009,
+              "id": 2003010,
               "name": "Explore morgue"
             }
           ]
@@ -583,19 +587,19 @@
           "name": "The Waning Moon",
           "quests": [
             {
-              "id": 2003010,
+              "id": 2003011,
               "name": "Speak to the bartender"
             },
             {
-              "id": 2003011,
+              "id": 2003012,
               "name": "Loot Madeline’s ledger"
             },
             {
-              "id": 2003012,
+              "id": 2003013,
               "name": "Loot potion stash"
             },
             {
-              "id": 2003013,
+              "id": 2003014,
               "name": "Return to He-Who-Was"
             }
           ]
@@ -617,22 +621,18 @@
             },
             {
               "id": 2004004,
-              "name": "Speak with Weapons/Armour merchant"
-            },
-            {
-              "id": 2004005,
               "name": "Get Strength potion from Araj Oblodra"
             },
             {
-              "id": 2004006,
+              "id": 2004005,
               "name": "Save prisoners in basement",
               "subquests": [
                 {
-                  "id": 200400601,
+                  "id": 200400501,
                   "name": "Rescue Gnomes"
                 },
                 {
-                  "id": 200400602,
+                  "id": 200400502,
                   "name": "Rescue Tieflings"
                 }
               ]
