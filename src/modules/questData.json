@@ -609,30 +609,34 @@
           "quests": [
             {
               "id": 2004001,
-              "name": "Speak to gnolls in kitchen (be nice)"
+              "name": "Loot Zhentarim Crate from docks"
             },
             {
               "id": 2004002,
-              "name": "Speak to ogre on ground floor"
+              "name": "Speak to gnolls in kitchen (be nice)"
             },
             {
               "id": 2004003,
-              "name": "Speak with Weapons/Armour merchant"
+              "name": "Speak to ogre on ground floor"
             },
             {
               "id": 2004004,
-              "name": "Get Strength potion from Araj Oblodra"
+              "name": "Speak with Weapons/Armour merchant"
             },
             {
               "id": 2004005,
+              "name": "Get Strength potion from Araj Oblodra"
+            },
+            {
+              "id": 2004006,
               "name": "Save prisoners in basement",
               "subquests": [
                 {
-                  "id": 200400501,
+                  "id": 200400601,
                   "name": "Rescue Gnomes"
                 },
                 {
-                  "id": 200400502,
+                  "id": 200400602,
                   "name": "Rescue Tieflings"
                 }
               ]
