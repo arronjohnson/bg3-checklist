@@ -6,6 +6,15 @@ export default function initialise() {
     btn.addEventListener('click', (e) => loadAct(Number(e.target.dataset.act))),
   );
 
+  const resetButton = document.querySelector('.reset-button');
+  resetButton.addEventListener('click', () => {
+    const confirm = prompt("Type 'reset' to clear all checkboxes.");
+    if (confirm === 'reset') {
+      localStorage.clear();
+      loadAct(1);
+    }
+  });
+
   loadAct(1);
 }
 
