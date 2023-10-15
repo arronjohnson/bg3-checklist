@@ -195,9 +195,19 @@ li:last-child > .label {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1350px) {
   .sublocation-container {
-    height: 900px;
+    &--act1 {
+      height: 2070px;
+    }
+
+    &--act2 {
+      height: 1700px;
+    }
+
+    &--act3 {
+      height: 760px;
+    }
   }
 
   .footer {
@@ -205,8 +215,35 @@ li:last-child > .label {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 880px) {
+  body {
+    grid-template:
+      'buttons'
+      'quests'
+      'footer' / 1fr;
+  }
+
+  .button-container {
+    flex-direction: row;
+  }
+
+  .button {
+    flex: 1;
+    padding: 24px 36px;
+  }
+
   .sublocation-container {
+    align-content: stretch;
+    gap: 16px;
     height: 100%;
+  }
+
+  .footer {
+    margin-top: 0;
+    text-align: center;
+
+    &__icons-container {
+      justify-content: center;
+    }
   }
 }

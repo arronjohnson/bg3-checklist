@@ -720,11 +720,11 @@
           "quests": [
             {
               "id": 2007001,
-              "name": "Press buttons (Tower > Grieving > General)"
+              "name": "Press buttons (Tower > Grief > General)"
             },
             {
               "id": 2007002,
-              "name": "Loot Umbral Gem"
+              "name": "Activate Umbral Gem"
             },
             {
               "id": 2007003,
@@ -748,7 +748,7 @@
               "subquests": [
                 {
                   "id": 200700701,
-                  "name": "Find Teachings of Loss book"
+                  "name": "Find Loss: Nightsinger book"
                 },
                 {
                   "id": 200700702,
@@ -804,7 +804,7 @@
             },
             {
               "id": 2009005,
-              "name": "Fight Ketheric Thorm"
+              "name": "Kill Ketheric Thorm"
             }
           ]
         },
