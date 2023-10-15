@@ -1069,6 +1069,75 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Tadpoles",
+          "quests": [
+            {
+              "id": 35001,
+              "name": "Mind Flayer (Windmill)"
+            },
+            {
+              "id": 35002,
+              "name": "Barrel (Riv. Docks)"
+            },
+            {
+              "id": 35003,
+              "name": "Boat storage (Riv. Docks)"
+            },
+            {
+              "id": 35004,
+              "name": "Table (Sorcerous Sundries)"
+            },
+            {
+              "id": 35005,
+              "name": "Cauldron (Mermaid Basement)"
+            },
+            {
+              "id": 35006,
+              "name": "Table (Iron Throne)"
+            },
+            {
+              "id": 35007,
+              "name": "Desk (The Lodge)"
+            },
+            {
+              "id": 35008,
+              "name": "Table (Sanguine Laboratory)"
+            },
+            {
+              "id": 35009,
+              "name": "Vault 6 (Counting House)"
+            },
+            {
+              "id": 35010,
+              "name": "6x Wooden Trunks (Foundry Ship)"
+            },
+            {
+              "id": 35011,
+              "name": "Table (Foundry Lab)"
+            },
+            {
+              "id": 35012,
+              "name": "Kill Avery Sonshal"
+            },
+            {
+              "id": 35013,
+              "name": "Kill Sally Flymm"
+            },
+            {
+              "id": 35014,
+              "name": "Kill Dravo Flymm"
+            },
+            {
+              "id": 35015,
+              "name": "Kill Manip Edenosa"
+            },
+            {
+              "id": 35016,
+              "name": "Kill Churg Elvek"
+            }
+          ]
         }
       ]
     }
